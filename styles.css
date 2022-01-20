@@ -52,6 +52,7 @@
   font-weight: 700;
   margin-top: 1em;
   color: var(--ldblue);
+  cursor: pointer;
 }
 .logo {
   width: 40%;
@@ -169,7 +170,7 @@
   font-family: var(--varela);
   text-transform: uppercase;
   color: var(--ldblue);
-  font-size: rem;
+  font-size: 1rem;
   text-align: center;
   margin-bottom: 1em;
 }
@@ -332,6 +333,10 @@
   color: white;
   font-size: 1rem;
 }
+.vidcont-text {
+  display: flex;
+  flex-direction: column;
+}
 
 /*Footer*/
 footer {
@@ -345,4 +350,156 @@ footer > h1 {
   font-family: var(--varela);
   font-size: 0.7rem;
   color: #b5b5b5;
+}
+
+@media (min-width: 650px) {
+  .navbar-hamburger-lines {
+    display: none;
+  }
+  .landingpage {
+    background-image: url("Designs/curvesbglandingpc.png");
+    height: 61em;
+    background-size: 100%;
+    padding: 0em 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5em;
+  }
+  .landingpagetext {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 160%);
+    text-align: center;
+    line-height: 4em;
+    margin-left: 0;
+    position: static;
+    width: 100%;
+  }
+  .landingpagetext > h1 {
+    font-size: 2.5rem;
+  }
+  .landingpagetext > h1 > span {
+    font-size: 5rem;
+  }
+  .logo {
+    width: 15em;
+    position: relative;
+    top: -50%;
+  }
+  .navbarcontainer {
+    position: absolute;
+    height: 4em;
+    width: 100%;
+    right: 3em;
+    top: 2em;
+    background-color: transparent;
+    justify-content: end;
+  }
+  .nav {
+    display: flex;
+    margin: 0;
+    padding: 0em 1em;
+  }
+  .nav > li {
+    font-size: 1.2rem;
+    margin-right: 3em;
+    font-weight: 500;
+  }
+  .nav > li:hover {
+    border-bottom: 2px var(--ldblue) solid;
+  }
+
+  .contenthead {
+    font-weight: 400;
+    font-size: 3.8rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0.5em;
+    color: var(--ldblue);
+  }
+  .contenthead::after {
+    width: 10%;
+  }
+  .contentsubhead {
+    font-size: 1.6rem;
+  }
+
+  .contentdesc {
+    font-size: 2rem;
+    margin-top: 2em;
+    width: 60%;
+    text-align: center;
+  }
+  .contentdesc span {
+    font-family: var(--Tlium);
+    font-style: italic;
+    font-weight: 700;
+  }
+  .contentdesc2 {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+  }
+  .contentdesc2text {
+    font-size: 2rem;
+    text-align: right;
+    border-top: 2px var(--lblue) solid;
+  }
+
+  .headdetails {
+    font-size: 2.5rem;
+    position: relative;
+    bottom: 5em;
+    font-family: var(--varela);
+    color: #005f91;
+    text-align: center;
+  }
+
+  .headdetails::after {
+    width: 20%;
+    height: 0.1em;
+  }
+
+  .indepthdetails {
+    margin-top: 2em;
+    background-image: url("Designs/curveindepthdetailspc.png");
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    height: 80em;
+  }
+  .indepthtext {
+    width: 70%;
+    font-size: 2rem;
+    text-align: right;
+    margin-right: 3em;
+  }
+  .vidcont-text {
+    display: flex;
+    flex-direction: row;
+  }
+  .video-container {
+    position: relative;
+    width: 70%;
+    padding-bottom: 26.25%;
+    left: 5%;
+    transform: translate(0);
+    margin-right: 10em;
+  }
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .icons {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    width: 2%;
+  }
+  .contact-header {
+    font-size: 2rem;
+  }
 }
