@@ -78,6 +78,7 @@
   align-items: center;
   right: 0;
   z-index: 3;
+  cursor: pointer;
 }
 .navbar-lines {
   width: 100%;
