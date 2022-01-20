@@ -9,7 +9,7 @@
   --navbarcolor: #2384b8;
   --orange: #ff4800;
   --dgray: #262626;
-  --Tlium: "Titillium Web";
+  --tlium: "Titillium Web";
   --varela: "Varela Round";
   --museo: "Museo Sans 100";
 }
@@ -32,7 +32,7 @@
 .navbarcontainer {
   position: fixed;
   display: flex;
-  font-family: var(--Tlium);
+  font-family: var(--tlium);
   height: 100vh;
   background-color: var(--lblue);
   right: -500px;
@@ -50,7 +50,7 @@
 }
 .nav > li {
   text-align: right;
-  font-family: var(--Tlium);
+  font-family: var(--tlium);
   font-weight: 700;
   margin-top: 1em;
   color: var(--ldblue);
@@ -133,7 +133,7 @@
   font-size: 1.5rem;
 }
 .landingpagetext span {
-  font-family: var(--Tlium);
+  font-family: var(--tlium);
   color: var(--lblue);
   font-weight: 400;
   font-size: 3rem;
@@ -149,7 +149,7 @@
   margin: 1.5em 0;
 }
 .contenthead {
-  font-family: var(--Tlium);
+  font-family: var(--tlium);
   font-weight: 400;
   font-size: 1.8rem;
   text-transform: uppercase;
@@ -181,7 +181,7 @@
   color: var(--ldblue);
 }
 .contentdesc span {
-  font-family: var(--Tlium);
+  font-family: var(--tlium);
   font-style: italic;
   font-weight: 700;
 }
@@ -301,7 +301,7 @@
   padding: 0.6em 1em;
   border-radius: 10px;
   border: gray 2px solid;
-  font-family: var(--Tlium);
+  font-family: var(--tlium);
   font-size: 1rem;
 }
 .forms-section-message textarea {
@@ -328,7 +328,7 @@
   border: var(--lblue) 2px solid;
   background-color: var(--lblue);
   font-weight: 700;
-  font-family: var(--Tlium);
+  font-family: var(--tlium);
   color: white;
   font-size: 1rem;
 }
